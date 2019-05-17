@@ -1,0 +1,28 @@
+section {
+    width: 100%;
+}
+
+div {
+    display: block;
+    height: 300px;
+    border: 1px dotted #000;
+    background: #888;
+    width: 100%;
+}
+
+h1 {
+    padding: 5vw;
+    font-size: 2.5vw;
+}
+
+@media (min-width: 768px) {
+    section {
+        width: 2000px;
+    }
+
+    div {
+        width: 300px;
+        float: left;
+        background: red;
+    }
+}
